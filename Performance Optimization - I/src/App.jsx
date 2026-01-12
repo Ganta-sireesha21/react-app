@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo, useCallback } from "react";
-import products from "./Products";
+import { products } from "./Products";
 import { ProductList } from "./components/ProductList";
 
 function App() {
