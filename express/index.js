@@ -1,0 +1,28 @@
+// Import express
+const express = require("express");
+
+// Initialize express app
+const app = express();
+
+// Define port
+const PORT = 3000;
+
+// Home route
+app.get("/home", (req, res) => {
+  res.json({ message: "This is home page" });
+});
+
+// Contact Us route
+app.get("/contactus", (req, res) => {
+  res.json({ message: "Contact us at contact@contact.com" });
+});
+
+// Bonus: About route
+app.get("/about", (req, res) => {
+  res.json({ message: "Welcome to the About page!" });
+});
+
+// Start the server
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
