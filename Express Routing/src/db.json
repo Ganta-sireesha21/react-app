@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1768821209216,
+      "message": "Student deleted successfully"
+    },
+    {
+      "id": 1768821270620,
+      "name": "siri",
+      "email": "siri@gmail.com"
+    }
+  ],
+  "todos": []
+}
