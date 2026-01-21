@@ -7,7 +7,7 @@ router.get("/allorders", (req, res) => {
   const db = readDB();
   res.json({
     count: db.orders.length,
-    orders: db.orders
+    
   });
 });
 router.get("/cancelled-orders", (req, res) => {
