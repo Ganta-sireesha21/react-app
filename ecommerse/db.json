@@ -1,6 +1,11 @@
 {
   "products": [
-   
+    {
+      "id": 1769004221354,
+      "name": "Mobile",
+      "price": 20000,
+      "stock": 10
+    }
   ],
   "orders": []
 }
