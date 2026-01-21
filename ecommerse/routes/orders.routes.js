@@ -85,4 +85,4 @@ router.patch("/change-status/:orderId", (req, res) => {
   res.json(order);
 });
 
-
+export default router;

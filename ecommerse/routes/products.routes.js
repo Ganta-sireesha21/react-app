@@ -19,4 +19,4 @@ router.get("/", (req, res) => {
   res.json(db.products);
 });
 
-export default router;
+
